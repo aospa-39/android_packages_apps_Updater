@@ -40,23 +40,23 @@ android_app {
     },
 
     required: [
-        "privapp_whitelist_org.aospa.updater",
-        "default-permissions_org.aospa.updater"
+        "privapp_whitelist_co.aospa.updater",
+        "default-permissions_co.aospa.updater"
     ],
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_org.aospa.updater",
+    name: "privapp_whitelist_co.aospa.updater",
     system_ext_specific: true,
     sub_dir: "permissions",
-    src: "privapp_whitelist_org.aospa.updater.xml",
+    src: "privapp_whitelist_co.aospa.updater.xml",
     filename_from_src: true,
 }
 
 prebuilt_etc {
-    name: "default-permissions_org.aospa.updater",
+    name: "default-permissions_co.aospa.updater",
     system_ext_specific: true,
     sub_dir: "default-permissions",
-    src: "default-permissions_org.aospa.updater.xml",
+    src: "default-permissions_co.aospa.updater.xml",
     filename_from_src: true,
 }
